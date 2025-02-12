@@ -15,16 +15,16 @@ mkdir -p "$outputDir/static-OTF"
 # build static fonts
 
 # Build TTFs
-fontmake -o ttf -i -m $DS --expand-features-to-instances --output-dir "$outputDir/static-TTF" &                                       # full build
+# fontmake -o ttf -i -m $DS --expand-features-to-instances --output-dir "$outputDir/static-TTF" &                                       # full build
 # fontmake -o ttf -i -m $DS --expand-features-to-instances  -i ".*Normal.*" --output-dir "$outputDir/static-TTF" &                        # use this line for a faster test build of only Normal weights w/ italics
-# fontmake -o ttf -i -m $DS --expand-features-to-instances -i ".*Normal Regular" --output-dir "$outputDir/static-TTF" &                   # use this line for a much faster test build of only Normal Regular
+fontmake -o ttf -i -m $DS --expand-features-to-instances -i '.*Informal SemiBold.*' --output-dir "$outputDir/static-TTF" &                   # use this line for a much faster test build of onlyInformal ExtraBold 
 wait
 
-find "sources/build-prep/ital_wght_BNCE_INFM_SPAC--prepped/instances" -path '*.ufo' -print0 | while read -d $'\0' file
-do
-    fontmake -o otf -u "$file" --optimize-cff=0 --output-dir "$outputDir/static-OTF" &
-    wait
-done
+# find "sources/build-prep/ital_wght_BNCE_INFM_SPAC--prepped/instances" -path '*.ufo' -print0 | while read -d $'\0' file
+# do
+#     fontmake -o otf -u "$file" --optimize-cff=0 -i ".*Informal ExtraBold" --output-dir "$outputDir/static-OTF" &
+#     wait
+# done
 
 # # Build OTFs (don’t optimize the CFF table, because it takes a super long time for marginal benefit)
 # fontmake -o otf -i -m $DS --expand-features-to-instances --optimize-cff=0 --output-dir "$outputDir/static-OTF" &                       # full build if the TTF build isn’t done first

@@ -338,10 +338,10 @@
     </instance>
     <instance name="Informal SemiBold" familyname="Shantell Sans Informal" stylename="SemiBold" filename="instances/Shantell_Sans-Informal_SemiBold.ufo" postscriptfontname="ShantellSansInformal-SemiBold" stylemapfamilyname="Shantell Sans Informal SemiBold" stylemapstylename="regular">
       <location>
-        <dimension name="Weight" xvalue="600"/>
-        <dimension name="Italic" xvalue="0"/>
-        <dimension name="Informality" xvalue="100"/>
-        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="0.35"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="35"/>
         <dimension name="Spacing" xvalue="0"/>
       </location>
       <kerning/>
