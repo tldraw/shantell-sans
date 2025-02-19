@@ -126,6 +126,8 @@ If you find issues with randomization in other apps (or if you run into any othe
 
 Make a virtual environment:
 
+**tldraw Note**: We found that we had to specifically use Python 3.10, otherwise there were compilation errors.
+
 ```bash
 python3 -m venv venv
 ```
