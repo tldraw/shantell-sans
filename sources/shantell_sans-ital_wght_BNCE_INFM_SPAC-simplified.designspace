@@ -113,7 +113,7 @@
     </instance>
     <instance familyname="Shantell Sans" stylename="Informal Bold" filename="instances/Shantell_Sans-Informal_Bold.ufo"  stylemapfamilyname="Shantell Sans Informal" stylemapstylename="bold">
       <location>
-        <dimension name="Weight" xvalue="677"/>
+        <dimension name="Weight" xvalue="800"/>
         <dimension name="Italic" xvalue="0.27"/>
         <dimension name="Informality" xvalue="77"/>
         <dimension name="Bounce" xvalue="0"/>
@@ -125,7 +125,7 @@
     <instance familyname="Shantell Sans" stylename="Informal Italic" filename="instances/Shantell_Sans-Informal_Regular_Italic.ufo" stylemapfamilyname="Shantell Sans Informal" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="611"/>
-        <dimension name="Italic" xvalue="0.77"/>
+        <dimension name="Italic" xvalue="1"/>
         <dimension name="Informality" xvalue="77"/>
         <dimension name="Bounce" xvalue="0"/>
         <dimension name="Spacing" xvalue="0"/>
@@ -135,8 +135,8 @@
     </instance>
     <instance familyname="Shantell Sans" stylename="Informal Bold Italic" filename="instances/Shantell_Sans-Informal_Bold_Italic.ufo" stylemapfamilyname="Shantell Sans Informal" stylemapstylename="bold italic">
       <location>
-        <dimension name="Weight" xvalue="677"/>
-        <dimension name="Italic" xvalue="0.77"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Italic" xvalue="1"/>
         <dimension name="Informality" xvalue="77"/>
         <dimension name="Bounce" xvalue="0"/>
         <dimension name="Spacing" xvalue="0"/>
